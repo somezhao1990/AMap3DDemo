@@ -24,7 +24,7 @@ public class CalculateDistanceActivity extends Activity implements OnMarkerDragL
 	private LatLng latlngB = new LatLng(39.924870, 116.403270);
 	private Marker makerA;
 	private Marker makerB;
-	private TextView Text;
+	//private TextView Text;
 	private float distance;
 
 	@Override
@@ -36,14 +36,14 @@ public class CalculateDistanceActivity extends Activity implements OnMarkerDragL
 		mapView.onCreate(savedInstanceState);// 此方法必须重写
 		init();
 		distance = AMapUtils.calculateLineDistance(makerA.getPosition(), makerB.getPosition());
-		Text.setText("长按Marker可拖动\n两点间距离为："+distance+"m");
+		//Text.setText("长按Marker可拖动\n两点间距离为："+distance+"m");
 	}
 	private void init() {
 		if (aMap == null) {
 			aMap = mapView.getMap();
 			setUpMap();
 		}
-		Text = (TextView) findViewById(com.zxb.xmap.remote.R.id.info_text);
+		//Text = (TextView) findViewById(com.zxb.xmap.remote.R.id.info_text);
 	}
 	private void setUpMap() {
 		aMap.setOnMarkerDragListener(this);
@@ -69,7 +69,7 @@ public class CalculateDistanceActivity extends Activity implements OnMarkerDragL
 	public void onMarkerDrag(Marker marker) {
 
 		distance = AMapUtils.calculateLineDistance(makerA.getPosition(), makerB.getPosition());
-		Text.setText("长按Marker可拖动\n两点间距离为："+distance+"m");
+		//Text.setText("长按Marker可拖动\n两点间距离为："+distance+"m");
 		
 	}
 

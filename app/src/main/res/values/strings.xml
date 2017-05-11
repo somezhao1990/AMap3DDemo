@@ -249,4 +249,8 @@
     <string name="style_custom_on">开启个性化地图</string>
     <string name="style_custom_off">关闭个性化地图</string>
 
+    <!--  自定义的程序按键等 -->
+    <string name="button_start">选点</string>
+    <string name="button_ok">路径</string>
+
 </resources>

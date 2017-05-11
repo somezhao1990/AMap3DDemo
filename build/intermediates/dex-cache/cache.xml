@@ -1,3 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/libs/AMap_Search_V5.0.0_20170309.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="315a916b8186d7c5496a81cf683455c558196a1d">
+        <dex dex="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Search_V5.0.0_20170309_38839681d8d01c84d6ec4d4b686b73718b416acc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4befb884fce316c9f1ef3038fbbda05904c13985">
+        <dex dex="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4a7bd1f8273298aaa0a81a86805ef97cf7f28b12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/libs/Volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/transforms/dex/debug/folders/1000/2/Volley_4bb8d310baa20f274e8726423390da79bce9be72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_ce6ff49dcb0b6b8c42645bc2486b2b968dd0ae73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/libs/Android_Map3D_SDK_V5.0.0_20170311.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1138283bb2b30bbf424a02eeeadab84edfc1571c">
+        <dex dex="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/transforms/dex/debug/folders/1000/2/Android_Map3D_SDK_V5.0.0_20170311_3012ce485a967497b6b9553b595110c0bf35f5d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d6ac0585f9f18c19ccbe5cb6fced20211be97bf4">
+        <dex dex="/Users/zhaoxibin/AndroidStudioProjects/AMap3DDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_45a1815452b42bb8aa6506dd1e886527a711c426/classes.dex" />
+    </item>
+
+</items>
