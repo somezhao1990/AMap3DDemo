@@ -125,6 +125,8 @@ public final class MainActivity extends ListActivity
     }
 
     private static final DemoDetails[] demos = {
+            //			判断点是否在多边形内
+            new DemoDetails(R.string.contains_demo, R.string.contains_demo, ContainsActivity.class),
 //		            创建地图
             new DemoDetails(R.string.map_create, R.string.blank, null),
 //			显示地图
@@ -326,8 +328,7 @@ public final class MainActivity extends ListActivity
             new DemoDetails(R.string.convertgeo2point_demo, R.string.convertgeo2point_demo, GeoToScreenActivity.class),
 //			两点间距离计算
             new DemoDetails(R.string.calculateLineDistance, R.string.calculateLineDistance, CalculateDistanceActivity.class),
-//			判断点是否在多边形内
-            new DemoDetails(R.string.contains_demo, R.string.contains_demo, ContainsActivity.class),
+
 
 
 //			地图计算工具
