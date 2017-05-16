@@ -1,3 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Volley_06981a066da3ed79e040c037cf4103a63fca30e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_ad0e6e1412fcc35bf4f71a2d5fa427afc2455958\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.0.0_20170311.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1138283bb2b30bbf424a02eeeadab84edfc1571c">
+        <dex dex="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Map3D_SDK_V5.0.0_20170311_d3bf37e857320fdd522863f92de16d5e554e695b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Search_V5.0.0_20170309.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="315a916b8186d7c5496a81cf683455c558196a1d">
+        <dex dex="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Search_V5.0.0_20170309_6204a49592859c8f24815f2773864a15badff9fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7e3478eac8e7ec63e77e588720c488909167bd30">
+        <dex dex="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_135513d4650b32929c5f17b6f5c779626355501f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eb012481349d2e00e5c078871682ea0d4011fad4">
+        <dex dex="D:\AndroidStudioProjects\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7c831de2e2b3d126694709b87467ae4b4b845589\classes.dex" />
+    </item>
+
+</items>
