@@ -330,7 +330,6 @@ public final class MainActivity extends ListActivity
             new DemoDetails(R.string.calculateLineDistance, R.string.calculateLineDistance, CalculateDistanceActivity.class),
 
 
-
 //			地图计算工具
             new DemoDetails(R.string.map_expand, R.string.blank, null),
 //			轨迹纠偏

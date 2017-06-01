@@ -1,37 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-<!-- <TextView
+    <TextView
         android:id="@+id/info_text"
         android:layout_width="match_parent"
-        android:layout_height="10dp" />-->
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:background="#666666"
+        android:text="电量：XXX    信号强度：XXX  时间：XXX "
+        android:textColor="#ffffff"/>
 
     <com.amap.api.maps.MapView
         android:id="@+id/map"
+        android:layout_below="@+id/info_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+
     </com.amap.api.maps.MapView>
 
     <Button
         android:id="@+id/button_start"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_start" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/button_start"/>
 
     <Button
         android:id="@+id/button_ok"
-        android:layout_toRightOf="@+id/button_start"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_ok" />
+        android:layout_alignBaseline="@+id/button_start"
+        android:layout_alignBottom="@+id/button_start"
+        android:layout_toEndOf="@+id/button_start"
+        android:layout_toRightOf="@+id/button_start"
+        android:text="@string/button_ok"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_start"
+        android:layout_alignBottom="@+id/button_start"
+        android:layout_toEndOf="@+id/button_ok"
+        android:layout_toRightOf="@+id/button_ok"
+        android:text="下发路径"/>
 
 </RelativeLayout>
